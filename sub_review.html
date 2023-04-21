@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANKEY</title>
+</head>
+
+<!-- 아이콘 -->
+<link rel="shortcut icon" href="./images/fankey.ico" type="image/x-icon">
+
+<!-- top버튼 -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+
+<!-- 내거 -->
+<link rel="stylesheet" href="./css/sub_review_style.css">
+
+<body>
+    <div id="header">
+        <div class="header_inner1">
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">주문조회</a></li>
+            </ul>
+            <ol>
+                <li><a href="#"><img src="./images/header_icon.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/header_icon2.png" alt=""></a></li>
+            </ol>
+        </div><!-- header_inner1 -->
+        <div class="header_logo">
+            <a href="./index.html"><img src="./images/header_logo.png" alt=""></a>
+        </div>
+        <div class="header_inner2">
+            <ul>
+                <li>
+                    <a href="#" type="button" class="eng btn-bubble">
+                        Brand
+                        <span class="btn-bubble-inner">
+                            <span class="btn-bubble-itembox">
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                            </span>
+                        </span>
+                    </a>
+                    <ol class="sub">
+                        <li><a href="./sub_brand.html">회사소개</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#" type="button" class="eng btn-bubble">
+                        Product
+                        <span class="btn-bubble-inner">
+                            <span class="btn-bubble-itembox">
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                            </span>
+                        </span>
+                    </a>
+                    <ol class="sub">
+                        <li><a href="./sub_product.html">Kitsch♥Highteen </a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#" type="button" class="eng btn-bubble">
+                        Collabor
+                        <span class="btn-bubble-inner">
+                            <span class="btn-bubble-itembox">
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                            </span>
+                        </span>
+                    </a>
+                    <ol class="sub">
+                        <li><a href="./sub_collabor.html">Cat & Dog</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#" type="button" class="eng btn-bubble">
+                        Community
+                        <span class="btn-bubble-inner">
+                            <span class="btn-bubble-itembox">
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                                <span class="btn-bubble-item"></span>
+                            </span>
+                        </span>
+                    </a>
+                    <ol class="sub">
+                        <li><a href="./sub_event.html">EVENT</a></li>
+                        <li><a href="./sub_review.html">REVIEW</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </div><!-- header_inner2 -->
+    </div><!-- header -->
+
+
+    <div class="review_title">
+        <p><span>REVIEW</span></p>
+        <p> <select name="gg" id="sel">
+                <option value="최신">최신순</option>
+                <option value="별점">별점순</option>
+                <option value="조회">조회수</option>
+            </select>
+        </p>
+        <p>
+            <input type="text" id="text" placeholder="검색어를 입력해주세요.">
+        </p>
+    </div> <!-- title -->
+    <div class="review">
+
+        <div class="review_box1">
+
+            <div class="box_img"><a href="#"><img src="./images_review/cat_note.png" alt="cat"></a>
+            </div>
+
+            <div class="box_text"><img src="./images_review/start_icon.png" alt="">
+                <a href="#">
+                    <h4>
+                        [Pet’ Party] Lovely Cat Note
+                    </h4>
+                    <p>다이어리 용으로 구매했는데 표지도 너무 예쁘고 마음에 들어요~</p>
+                </a>
+                <ul class="menu_box">
+                    <li>
+                        <div class="img_box">
+                            <a href="#"><img src="./images_review/heart_icon.png" alt="#"></a>
+                        </div>
+                        <div class="h_box">
+                            <a href="#"><img src="../코딩/images_review/start_icon2.png" alt="#"></a>
+                        </div>
+                    </li>
+                </ul> <!-- heart_bt -->
+            </div>
+        </div> <!-- review_box1 -->
+
+
+        <div class="review_box1">
+
+            <div class="box_img"> <a href="#"><img src="./images_review/dog_pod.png" alt="cat"></a>
+            </div>
+
+            <div><img src="./images_review/start_icon.png" alt="">
+                <a href="#">
+                    <h4>
+                        [Pet’ Party] Lovely Dog Apple Airpod
+                    </h4>
+                    <p>남친이랑 강아지 고양이로 맞췄어요 ㅎㅎ 친구들이 귀엽대요</p>
+                </a>
+                <ul class="menu_box">
+                    <li>
+                        <div class="img_box">
+                            <a href="#"><img src="./images_review/heart_icon.png" alt="#"></a>
+                        </div>
+                        <div class="h_box">
+                            <a href="#"><img src="../코딩/images_review/start_icon2.png" alt="#"></a>
+                        </div>
+                    </li>
+                </ul> <!-- heart_bt -->
+            </div>
+
+        </div> <!-- review_box1 -->
+
+
+        <div class="review_box1">
+
+            <div class="box_img"><a href="#"><img src="./images_review/dog_mug.png" alt="cat"></a>
+            </div>
+
+            <div><img src="./images_review/start_icon.png" alt="">
+                <a href="#">
+                    <h4>
+                        [Pet’ Party] Lovely Mug
+                    </h4>
+                    <p>친구 생일 선물로 샀어요! 실물이 더 이뻐요 짱!!</p>
+                </a>
+                <ul class="menu_box">
+                    <li>
+                        <div class="img_box">
+                            <a href="#"><img src="./images_review/heart_icon.png" alt="#"></a>
+                        </div>
+                        <div class="h_box">
+                            <a href="#"><img src="../코딩/images_review/start_icon2.png" alt="#"></a>
+                        </div>
+                    </li>
+                </ul> <!-- heart_bt -->
+            </div>
+
+        </div> <!-- review_box1 -->
+
+
+        <div class="review_box1">
+
+            <div class="box_img"> <a href="#"><img src="./images_review/butterfly_bag.png" alt="cat"></a>
+            </div>
+
+            <div><img src="./images_review/start_icon.png" alt="">
+                <a href="#">
+                    <h4>
+                        [Butterfly] Butterfly Bag
+                    </h4>
+                    <p>편하게 들고 다니려고 구매했습니다! 공간도 넉넉하고 좋네요 굳~</p>
+                </a>
+                <ul class="menu_box">
+                    <li>
+                        <div class="img_box">
+                            <a href="#"><img src="./images_review/heart_icon.png" alt="#"></a>
+                        </div>
+                        <div class="h_box">
+                            <a href="#"><img src="../코딩/images_review/start_icon2.png" alt="#"></a>
+                        </div>
+                    </li>
+                </ul> <!-- heart_bt -->
+            </div>
+
+        </div> <!-- review_box1 -->
+    </div> <!-- review -->
+    <div id="bt">
+        <ul>
+            <li><a href="#"><img src="./images_review/bt_icon.png" alt=""></a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#"><img src="./images_review/bt_icon2.png" alt=""></a></li>
+
+        </ul>
+    </div>
+
+
+    <div id="footer">
+        <div class="footer_inner">
+            <div class="footer_text">
+                <ul>
+                    <li><a href="#"></a><img src="./images/footer_logo.png" alt="logo"></li>
+                    <li><a href="#">Call 1111-2222 / Email : zxcvbm@frety.kr</a></li>
+                    <li><a href="#">사업자번호 101-01-00100 / 대표자 홍길동</a></li>
+                    <li><a href="#">우) 00010 서울시 마포구 월드컵북로 400</a></li>
+                </ul>
+            </div><!-- footer_text -->
+            <div class="footer_icon">
+                <ul>
+                    <li><a href="#"><img src="./images/footer_icon1.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/footer_icon2.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/footer_icon3.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/footer_icon4.png" alt=""></a></li>
+
+                </ul>
+            </div><!-- footer_icon -->
+        </div><!-- footer_inner -->
+    </div> <!-- footer -->
+
+
+    <div class="top">
+        <a href="#header"><img src="./images/top_bt1.png" alt=""></a>
+        <a href="#footer"><img src="./images/top_bt2.png" alt=""></a>
+    </div>
+
+
+
+    <!-- top버튼 -->
+    <script>
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 500);//움직이는 시간 조정
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
